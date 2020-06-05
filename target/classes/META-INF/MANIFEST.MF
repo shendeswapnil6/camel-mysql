@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1591329415970
+Build-Jdk: 1.8.0_222
+Built-By: swshende
+Bundle-ManifestVersion: 2
+Bundle-Name: test
+Bundle-SymbolicName: camelmysql.test
+Bundle-Version: 0.0.0.SNAPSHOT1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: mysqltest;version="0.0.0";uses:="org.apache.camel.builde
+ r",camelmysql.test;version="0.0.0"
+Import-Package: org.apache.camel;version="[3.3,4)",org.apache.camel.buil
+ der;version="[3.3,4)",org.apache.camel.model;version="[3.3,4)",org.spri
+ ngframework.context,org.springframework.context.support
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.2.0.201903051501

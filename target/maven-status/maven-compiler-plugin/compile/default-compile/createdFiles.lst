@@ -1,0 +1,5 @@
+mysqltest/Testmain.class
+camelmysql/test/App.class
+mysqltest/EmployeeRouter.class
+mysqltest/Employee.class
+mysqltest/EmployeeMapper.class
